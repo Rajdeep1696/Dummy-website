@@ -432,6 +432,16 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/main.js"></script>
 <script src="bot-traffic.js"></script>
 		<button id="dummy-button" onclick="trackEvent()">Click Me!</button>
+<script>
+function trackEvent() {
+    // This simulates sending an event to Google Analytics
+    gtag('event', 'dummy_button_click', {
+        'event_category': 'Button',
+        'event_label': 'Dummy Button'
+    });
+    console.log("Dummy Button Clicked!"); // This shows in the console for testing
+}
+</script>
 
 	</body>
 </html>
