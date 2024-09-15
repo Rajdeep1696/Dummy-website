@@ -1,6 +1,6 @@
 // Function to simulate bot visits
 function simulateBotTraffic() {
-    const totalVisits = 10; // Number of simulated visits
+    const totalVisits = 100; // Number of simulated visits
     
     for (let i = 0; i < totalVisits; i++) {
         // Simulate a visit to your website
